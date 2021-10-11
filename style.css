@@ -1,0 +1,334 @@
+:root {
+    --black: black;
+    --red: red;
+    --bgpinc: #F1E4E6;
+    --textred: #F16D7F;
+    --white: white;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--black);
+}
+
+.header {}
+
+.header-wrp {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 3;
+}
+
+.heder-wrp__logo-search {
+    width: 25%;
+}
+
+.heder-wrp__list-basket {
+    width: 10%;
+}
+
+.page-index {
+    display: flex;
+    background-color: var(--bgpinc);
+}
+
+.page-index p {
+    /* font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 44px;
+    color: #222222;
+    text-transform: uppercase; */
+
+}
+
+/* .page-index div {
+    margin-top: 15%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+} */
+
+.page-index__nav {
+    width: 15%;
+    background: var(--white);
+    margin-left: auto;
+}
+
+.page-index_text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.page-index__wrp {
+    display: flex;
+}
+
+.page-index__wrp__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 44px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.page-index_text_margin {
+    margin-top: 15%;
+}
+
+.page-index__wrp__text_red {
+    margin-left: 28px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: var(--textred);
+}
+
+.page-index__pic {
+    width: 50%;
+}
+
+.content-item {
+    margin-top: 59px;
+}
+
+.content-item__wrp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-item__acceories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-item__men {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 360px;
+    height: 260px;
+    background-image: url(image/formen.jpg);
+}
+
+.content-item__women {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 360px;
+    height: 260px;
+    background-image: url(image/forwomen.jpg);
+}
+
+.content-item__kids {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 360px;
+    height: 260px;
+    background-image: url(image/forkids.jpg);
+}
+
+.content-item__acceories {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 160px;
+    background-image: url(image/acceories.jpg);
+    background-position: center;
+    background-size: 97%;
+}
+
+.content-item h2 {
+    visibility: hidden;
+}
+
+.content-item h3 {
+    color: #F16D7F;
+    font-size: 29px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.content-item p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.list-intem-first {
+    display: flex;
+    margin-top: 48px;
+    justify-content: space-around;
+}
+
+.list-intem-second {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.list-two {
+    margin-top: 96px;
+}
+
+.list-intem__tiny {
+    width: 29.7%;
+    background: #F8F8F8;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--black)
+}
+
+.sab-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+
+}
+
+.list-intem__tiny h3 {
+    margin-top: 26px;
+    margin-left: 18px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.list-intem__tiny_grey {
+    margin-left: 18px;
+    margin-top: 13px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.list-intem__tiny_red {
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--textred);
+}
+
+.btn_red {
+    display: flex;
+    width: 27%;
+    text-decoration: none;
+    margin: 49px auto 96px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--textred);
+    border: 1px solid var(--textred)
+}
+
+.btn_red h3 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin: 0 auto;
+}
+
+.advantages {
+    width: 100%;
+    height: 341px;
+    background: #222224;
+}
+
+.advantages__list {
+    display: flex;
+
+}
+
+.advantages__list__box {
+    margin-top: 103px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.advantages__list__box h3 {
+    margin-top: 25px;
+    color: var(--white);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.advantages__list__box p {
+    color: #FBFBFB;
+    margin-top: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    margin-left: 30px;
+}
